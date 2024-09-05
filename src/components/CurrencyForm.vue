@@ -106,11 +106,15 @@ export default {
   margin: 2px;
   height: fit-content;
   box-sizing: border-box;
+  margin: 0;
+  display: flex;
+  justify-content: center;
 }
 #from-currency,
 #to-currency {
   height: 29px;
   border-radius: 0;
+  margin: 0 2px 2px 0;
 }
 input {
   height: 30px;

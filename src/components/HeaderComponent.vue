@@ -45,4 +45,7 @@ header {
   font-size: 1.5rem;
   width: 100%;
 }
+#currency-select {
+  font-size: 0.8rem;
+}
 </style>
