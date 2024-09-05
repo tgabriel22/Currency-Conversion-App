@@ -12,6 +12,7 @@
         <option value="RUB">RUB</option>
       </select>
       <input
+        class="from-currency"
         type="number"
         v-model.number="fromAmount"
         @input="convertCurrencyFromAmount"
@@ -102,11 +103,14 @@ export default {
 
 <style scoped>
 .conversion-row {
-  height: 30px;
+  margin: 2px;
+  height: fit-content;
+  box-sizing: border-box;
 }
 #from-currency,
 #to-currency {
-  height: 30px;
+  height: 29px;
+  border-radius: 0;
 }
 input {
   height: 30px;
@@ -116,12 +120,15 @@ input {
   width: 200px;
 }
 @media (max-width: 600px) {
+  .conversion-row {
+    height: fit-content;
+  }
   #from-currency,
   #to-currency {
-    height: 30px;
+    height: 38px;
   }
   input {
-    height: 30px;
+    height: 38px;
     width: 70%;
   }
 }

@@ -45,11 +45,4 @@ header {
   font-size: 1.5rem;
   width: 100%;
 }
-
-/* @media (max-width: 600px) {
-  header {
-    margin-top: 15px;
-    width: 100%;
-  }
-} */
 </style>
