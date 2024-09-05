@@ -95,4 +95,11 @@ export default {
 h3 {
   margin-bottom: 20px;
 }
+
+@media (max-width: 600px) {
+  .exchange-rates {
+    /* max-width: 80%; */
+    font-size: 1.2rem;
+  }
+}
 </style>

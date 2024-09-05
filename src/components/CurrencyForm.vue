@@ -115,4 +115,14 @@ input {
   font-weight: bold;
   width: 200px;
 }
+@media (max-width: 600px) {
+  #from-currency,
+  #to-currency {
+    height: 30px;
+  }
+  input {
+    height: 30px;
+    width: 100px;
+  }
+}
 </style>
