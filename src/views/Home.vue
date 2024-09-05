@@ -86,7 +86,7 @@ export default {
 .exchange-rates {
   border-radius: 5%;
   font-size: 1.5rem;
-  max-width: 80%;
+  max-width: 90%;
   height: 200px;
   align-content: center;
   background-color: rgb(234, 235, 241);
