@@ -42,15 +42,14 @@ export default {
 <style scoped>
 header {
   margin-top: 15px;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   width: 100%;
 }
 
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
   header {
     margin-top: 15px;
-    font-size: 1.2rem;
     width: 100%;
   }
-}
+} */
 </style>

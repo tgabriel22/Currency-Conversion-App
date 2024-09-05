@@ -122,7 +122,7 @@ input {
   }
   input {
     height: 30px;
-    width: 100px;
+    width: 70%;
   }
 }
 </style>

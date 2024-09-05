@@ -86,8 +86,9 @@ export default {
 .exchange-rates {
   border-radius: 5%;
   font-size: 1.5rem;
-  max-width: 90%;
-  height: 200px;
+  max-width: 95%;
+
+  height: 25dvh;
   align-content: center;
   background-color: rgb(234, 235, 241);
   box-sizing: border-box;
@@ -98,8 +99,8 @@ h3 {
 
 @media (max-width: 600px) {
   .exchange-rates {
-    /* max-width: 80%; */
     font-size: 1.2rem;
+    width: 90%;
   }
 }
 </style>
